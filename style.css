@@ -1,0 +1,46 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+    background-color: #252020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 0 30px;
+}
+
+.principal h1 {
+  font-size: 3.125rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.url-input,
+.button {
+  font-size: 1.3rem;
+  padding: 5px 10px;
+}
+
+.url-input {
+    
+}
+
+.button {
+    color: white;
+    border-radius: 8px;
+    background: #C4302B;
+    cursor: pointer;
+}
+
+
